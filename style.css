@@ -71,3 +71,10 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+/* 🌙 Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+
