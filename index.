@@ -1,9 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehak Anjum | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, this is my first GitHub Pages site!</h1>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <!-- Dark Mode Button -->
+                <li><button onclick="toggleDarkMode()">🌙 Dark Mode</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Hi, I'm <span class="highlight">Mehak Anjum</span></h1>
+        <p>Aspiring AIML & Cybersecurity Engineer 🚀</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate fresher engineer with skills in AI/ML, Cybersecurity, and Android Development. 
+            I love creating impactful projects like EMI calculators, IoT security monitoring, and digital forensics systems.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Semiconductor Wafer Fault Detection</strong> – ML model to detect wafer defects.</li>
+            <li><strong>Stock Price Prediction</strong> – Interactive graph-based stock analysis.</li>
+            <li><strong>IoT Security Monitoring System</strong> – Machine learning & blockchain security for IoT.</li>
+            <li><strong>EMI Calculator Android App</strong> – Multi-loan type calculator with ViewPager2.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:anjummehak@gmail.com">anjummehak@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/mehak-anjum" target="_blank">github.com/mehak-anjum</a></p>
+        <p>Portfolio: <a href="https://mehak-anjum.github.io" target="_blank">mehak-anjum.github.io</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Mehak Anjum | Built with ❤️</p>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
 </body>
 </html>
